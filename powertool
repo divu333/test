@@ -2,6 +2,12 @@ const express = require('express')
 const bodyParser = require('body-parser');
 const app = express()
 
+massive('http://localhost:3000')
+massive('postgress://localhost:5432/', () => {
+
+console.log("database connected);
+}
+
 app.use(bodyParser.json());
 
 const powerTools = [
