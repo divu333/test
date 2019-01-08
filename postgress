@@ -1,0 +1,28 @@
+sql tabs
+elephant sql
+heroku
+
+install postgres
+1. install homebrew
+
+https://brew.sh/
+run this on temrinal:
+====================
+1.    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install
+
+2.   brew install postgresql
+
+3. brew services start postgresql
+4. brew services list postgresql
+
+5.whoami 
+createdb divyakalliath
+
+6. psql
+
+7. create table power_tools (
+id serial primary key,
+name varchar
+);
+
+8. 
